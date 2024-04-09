@@ -1,5 +1,10 @@
 const loop0UpTo10 = () => {
+    for (let i = 0; i < 10; i++) {
+      console.log(i);
+    }
 };
+console.log("Question 1");
+loop0UpTo10();
 
 const loop5to10 = () => {
 };
