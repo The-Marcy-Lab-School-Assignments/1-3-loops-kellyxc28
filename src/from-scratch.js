@@ -16,7 +16,13 @@ loop5to10();
 
 // you do NOT need an if check
 const loopEvenNumbersUpTo10 = () => {
+    for (let i = 0; i < 10; i+=2) { // incrementing by 2 with STARTING at 0 => only even values 
+        // if (i % 2 === 0) continue;  // not needed since incrementing by 2 
+        console.log(i);
+    }
 };
+console.log("Question 3");
+loopEvenNumbersUpTo10();
 
 const countdown5to0 = () => {
 };
