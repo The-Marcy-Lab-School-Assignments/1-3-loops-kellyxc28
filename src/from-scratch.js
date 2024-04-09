@@ -36,8 +36,13 @@ console.log("Question 4");
 countdown5to0();
 
 // Q5  
-const loopUpToNum = () => {
+const loopUpToNum = (num) => {
+    for (let i = 0; i < num; i++) {
+      console.log(i);
+    }
 };
+console.log("Question 5");
+loopUpToNum();
 
 // Q10 
 const fizzbuzz = () => {
