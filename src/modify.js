@@ -1,10 +1,15 @@
 const whileToFor = () => {
-  let i = 0;
-  while (i < 5) {
+  // let i = 0;
+  // while (i < 5) {
+  //   console.log(i);
+  //   i++;
+  // }
+  for (let i = 0; i < 5; i++) {
     console.log(i);
-    i++;
   }
 };
+console.log("Question 6");
+whileToFor();
 
 const continueGuardClause = () => {
   for (let i = 1; i < 5; i++) {
