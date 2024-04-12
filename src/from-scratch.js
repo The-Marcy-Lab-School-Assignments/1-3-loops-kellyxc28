@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job with this file! I left a single comment on the last file. */
 // Q1 
 const loop0UpTo10 = () => {
     for (let i = 0; i < 10; i++) {
@@ -46,6 +47,7 @@ loopUpToNum();
 
 // Q10 
 const fizzbuzz = () => {
+  /** FEEDBACK: You have an extra indent in front of the for loop! */
     for (let i = 1; i <= 100; i++) {
       if (i % 3 !== 0 && i % 5 !== 0) {
         console.log(i);
