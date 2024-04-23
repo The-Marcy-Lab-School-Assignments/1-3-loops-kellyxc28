@@ -64,6 +64,7 @@ const fizzbuzz = () => {
 console.log("Question 10");
 fizzbuzz();
 
+// named exports 
 module.exports = {
   loop0UpTo10,
   loop5to10,

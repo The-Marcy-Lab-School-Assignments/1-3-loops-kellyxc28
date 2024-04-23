@@ -16,6 +16,7 @@ const continueGuardClause = () => {
 console.log("Question 7");
 continueGuardClause();
 
+// named exports 
 module.exports = {
   whileToFor,
   continueGuardClause,
