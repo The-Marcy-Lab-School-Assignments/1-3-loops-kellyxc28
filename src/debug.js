@@ -1,7 +1,7 @@
 /** FEEDBACK: Great job! */
 const brokenLoop = (start, end) => {
   let result = '';
-  for (let i = start; i <= end; i++) {
+  for (let i = start; i <= end; i++) {  // go from start to end, incrementing 
     result += i;
   }
   return result;
@@ -10,7 +10,7 @@ const brokenLoop = (start, end) => {
 const brokenNested = () => {
   let result = '';
   for (let i = 0; i < 2; i++) {
-    for (let j = 0; j < 10; j++) {
+    for (let j = 0; j < 10; j++) {  // nested loop 
       result += `-${i}${j}`;
     }
   }

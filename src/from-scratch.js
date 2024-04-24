@@ -48,20 +48,21 @@ loopUpToNum();
 // Q10 
 const fizzbuzz = () => {
   /** FEEDBACK: You have an extra indent in front of the for loop! */
-    for (let i = 1; i <= 100; i++) {
-      if (i % 3 !== 0 && i % 5 !== 0) {
-        console.log(i);
-      }
-      else if (i % 3 === 0 && i % 5 === 0) {
-        console.log('fizzbuzz');
-      }
-      else if (i % 3 === 0 && i % 5 !== 0) {
-        console.log('fizz');
-      }
-      else if (i % 3 !== 0 && i % 5 === 0) {
-        console.log('buzz');
-      }
+  for (let i = 1; i <= 100; i++) {
+    // better to have this as first, otherwise iterator i would pass for i % 3 === 0 
+    if (i % 3 !== 0 && i % 5 !== 0) {
+      console.log(i);
     }
+    else if (i % 3 === 0 && i % 5 === 0) {
+      console.log('fizzbuzz');
+    }
+    else if (i % 3 === 0 && i % 5 !== 0) {
+      console.log('fizz');
+    }
+    else if (i % 3 !== 0 && i % 5 === 0) {
+      console.log('buzz');
+    }
+  }
 };
 console.log("Question 10");
 fizzbuzz();
